@@ -1,0 +1,268 @@
+
+.navbar-custom {
+  background: orange  !important;
+  color: white !important;
+}
+
+.m2font {
+  color: orange;
+  font-family: mysFont;
+  font-size-adjust: 10vw;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#myCarousel {
+  align-items: center;
+  padding: 30px;
+}
+
+#imgArmy {
+  width: 100vw;
+  height:auto;
+}
+
+#imgRing {
+  width: 100vw;
+  height: auto;
+}
+
+
+.smaller {
+  font-size: 1vw;
+}
+
+#imgGand {
+  height: 373px;
+  width: auto;
+  opacity: 0.8;
+}
+
+#imgArag {
+  opacity: 0.8;
+}
+
+#imgGiml {
+  opacity: 0.5;
+}
+
+.number{
+  color:orange;
+}
+
+#gandBanner {
+  border-radius:20px;
+  position:absolute;
+  top:15px;
+  left:60px;
+  height:120px;
+  width:250px;
+  text-align:center;
+  background-color:grey;
+  opacity:0.8
+}
+
+#gandName {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  opacity:1;
+}
+
+#gandHov {
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 120px;
+  opacity:0
+}
+
+#aragBanner {
+  border-radius:20px;
+  position:absolute;
+  top:15px;
+  left:60px;
+  height:120px;
+  width:250px;
+  text-align:center;
+  background-color:grey;
+  opacity:0.8
+}
+  
+#aragName {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  opacity:1
+}
+
+#aragHov {
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 120px;
+  opacity:0
+}
+
+#gimBanner {
+  position:absolute;
+  top:15px;
+  left:60px;
+  height:120px;
+  width:250px;
+  text-align:center;
+}
+  
+#gimName {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  opacity:1;
+  text-decoration: overline red;
+}
+
+#hov1:hover > #gandBanner {
+  opacity:0;
+}
+
+#hov1:hover > #gandName {
+  opacity:0;
+}
+
+#hov1:hover > #imgGand {
+  opacity:1;
+}
+#hov1:hover > #gandHov {
+  opacity:1
+}
+
+#hov2:hover > #aragName {
+  opacity:0;
+}
+#hov2:hover > #aragBanner {
+  opacity:0;
+}
+#hov2:hover > #imgArag {
+  opacity:1;
+}
+#hov2:hover > #aragHov {
+  opacity:1
+}
+
+
+li {
+  list-style:none;
+}
+
+#fellows {
+	background-color: #CCCCCC;
+  text-align: center; 
+  padding: 30px;
+}
+
+.caption {
+  background-color: black;
+  color: white;
+}
+
+#reward {
+  background-color: black;
+  color:white;
+  padding: 30px;
+}
+
+#contactButton {
+  color: orange;
+  transform: skew(-30deg);
+}
+
+#hunters {
+  background-color: #CCCCCC;
+  padding: 30px;
+}
+
+.btnHate {
+  color: orange;
+  background-color: black;
+}
+
+.media-heading {
+  color: orange;
+}
+
+#ring {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.panel {
+  width: 90%;
+  margin-left:5%;
+}
+
+.panel-heading {
+  background: orange !important;
+}
+
+.panel-body {
+  background-color:#CCCCCC;
+  color: black;
+}
+
+table {
+  border: thin solid black;
+  background-color: #CCCCCC;
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+}
+
+tr {
+  border: thin solid black;
+}
+
+
+footer {
+  background-color: orange;
+  padding: 30px;
+}
+
+#joinOurArmy {
+  background-color: #CCCCCC;
+  padding: 30px;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+#imgAr {
+  width: 90%;
+  height: auto;
+}
+
+#nazgouls {
+  width: 80%;
+  height: auto;
+}
+
+#buttonSRTA {
+  color:orange;
+  background-color: black;
+  transform: skew(-30deg);
+}
