@@ -254,12 +254,6 @@ footer {
   padding: 30px;
 }
 
-#contact {
-  background-color: black;
-  color: white;
-  padding: 30px;
-}
-
 #imgAr {
   width: 90%;
   height: auto;
@@ -274,4 +268,14 @@ footer {
   color:orange;
   background-color: black;
   transform: skew(-30deg);
-}	
+}
+
+#contact {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+#select {
+  padding:1px;
+}
