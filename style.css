@@ -213,6 +213,7 @@ li {
   background-color: black;
   color: white;
   padding: 30px;
+  overflow-wrap:break-word;
 }
 
 .panel {
