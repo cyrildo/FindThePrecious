@@ -46,10 +46,14 @@ a:hover {
 }
 
 #imgArag {
+  height: 373px;
+  width: auto;
   opacity: 0.8;
 }
 
 #imgGiml {
+  height: 373px;
+  width: auto;
   opacity: 0.5;
 }
 
@@ -61,74 +65,79 @@ a:hover {
   border-radius:20px;
   position:absolute;
   top:15px;
-  left:60px;
-  height:120px;
-  width:250px;
+  height:8vw;
+  width: 14vw;
+  min-width: 200px;
+  min-height: 120px;
   text-align:center;
   background-color:grey;
-  opacity:0.8
+  opacity:0.8;
+  margin-left:2vw;
 }
 
 #gandName {
   color: white;
   position: absolute;
   top: 200px;
-  left: 100px;
   opacity:1;
+  margin-left:4vw;
 }
 
 #gandHov {
   color: white;
   position: absolute;
   top: 300px;
-  left: 120px;
-  opacity:0
+  opacity:0;
+  margin-left:4vw;
 }
 
 #aragBanner {
   border-radius:20px;
   position:absolute;
   top:15px;
-  left:60px;
-  height:120px;
-  width:250px;
+  height:8vw;
+  width: 14vw;
+  min-width: 200px; 
+  min-height: 120px;
   text-align:center;
   background-color:grey;
-  opacity:0.8
+  opacity:0.8;
+  font-size: 1vw;
+  margin-left:2vw;
 }
   
 #aragName {
   color: white;
   position: absolute;
   top: 200px;
-  left: 100px;
-  opacity:1
+  opacity:1;
+  margin-left:4vw;
 }
 
 #aragHov {
   color: white;
   position: absolute;
   top: 300px;
-  left: 120px;
-  opacity:0
+  opacity:0;
+  margin-left:4vw;
 }
 
 #gimBanner {
   position:absolute;
   top:15px;
-  left:60px;
-  height:120px;
-  width:250px;
+  height:8vw;
+  width: 14vw;  
   text-align:center;
+  margin-left:2vw;
 }
   
 #gimName {
   color: white;
   position: absolute;
   top: 200px;
-  left: 100px;
   opacity:1;
   text-decoration: overline red;
+  margin-left:4vw;
 }
 
 #hov1:hover > #gandBanner {
@@ -265,4 +274,4 @@ footer {
   color:orange;
   background-color: black;
   transform: skew(-30deg);
-}
+}	
